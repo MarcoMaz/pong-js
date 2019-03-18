@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Geo");
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Geo', sans-serif;
+  overflow-y: hidden;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .header {
+  height: 75vh;
+}
+body .header #intro01 {
+  display: block;
+  font-size: 50vh;
+  padding-top: 18vh;
+  width: 100vw;
+}
+body .header #intro02 {
+  display: none;
+  font-size: 6vh;
+  width: 100vw;
+}
+body .header #intro02 .instr {
+  font-size: 10vh;
+  padding-top: 5vh;
+}
+body .header #youWin, body .header #youLose {
+  display: none;
+  font-size: 16vh;
+  padding-top: 5vh;
+  width: 100vw;
+}
+body .header #game {
+  border: 1px solid white;
+  display: none;
+  margin: 10px 0 0 calc(50vw - 325px);
+}
+body .footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 25vh;
+  justify-content: space-around;
+}
+body .footer #pause, body .footer #reset, body .footer #resume {
+  display: none;
+  margin-top: -2vh;
+}
+body .footer .btn {
+  border: 3px solid white;
+  font-size: 8vh;
+  height: 8vh;
+  padding: 4vh 0;
+  width: 20vw;
+}
+body .footer .btn:hover {
+  opacity: 0.7;
+}

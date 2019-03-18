@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pong JS</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="header">
+  <div id="intro01">PONG</div>
+  <div id="intro02">
+    <div class="instr">INSTRUCTIONS</div><br>
+    player 1 controls the left hand paddle<br>
+    using the "w" [up] and "s" [down] keys<br><br>
+    player 2 controls the right hand paddle<br>
+    using the up arrow and down arrow keys<br><br>
+    first player to 11 points wins the game.    
+    </div>
+  <div id="youWin">Player #1 won!<br>Wanna play again?</div>
+  <div id="youLose">Player #2 won!<br>Wanna play again?</div>
+  <canvas id="game" width="650" height="325"></canvas>
+</div>
+<div class="footer">
+  <div id="start" class="btn">START</div>
+  <div id="rules" class="btn">RULES</div>
+  <div id="pause" class="btn">PAUSE</div>
+  <div id="resume" class="btn">RESUME</div>
+  <div id="reset" class="btn">RESET</div>
+</div>
+<div>
+  <audio id="pongOut" src="https://www.dropbox.com/s/eb8h22oy42occ16/pongOut.ogg?raw=1"></audio>
+  <audio id="pongPaddle" src="https://www.dropbox.com/s/lmm3yoh870k5pr6/pongPaddle.ogg?raw=1"></audio>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
