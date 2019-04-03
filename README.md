@@ -10,9 +10,9 @@
 </ul>
 <h2>Where to find the project...</h2>
 <p>
-Click <a href="https://s.codepen.io/vinniezappa/debug/rjzObR/dXkqBZypRvnM" target="_blank"> here</a>
+Click <a href="https://s.codepen.io/vinniezappa/full/rjzObR/dXkqBZypRvnM" target="_blank"> here</a>
 or in the image below <br/><br/>
-<a href="https://s.codepen.io/vinniezappa/debug/rjzObR/dXkqBZypRvnM" target="_blank">
+<a href="https://s.codepen.io/vinniezappa/full/rjzObR/dXkqBZypRvnM" target="_blank">
 <img src="https://www.dropbox.com/s/h97wtqt9d2x1nw1/07-pong-JS.jpg?raw=1" target="_blank">
 </a>
 </p>
